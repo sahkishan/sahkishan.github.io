@@ -1,0 +1,459 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    padding:0px;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background:#55566b;
+}
+
+.logo {
+    float: left;
+}
+.logo_size{
+    height: 100px;
+    width: 50px;
+}
+.nav {
+    float: right;
+    
+  }
+.nav a:hover{
+    background-color: #756b6b;
+    
+}
+  header{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    background-color: #222;
+  }
+  .nav li {
+    display:inline-block;
+    margin: 10px 0;
+}
+.nav a {
+    color:white;
+    text-transform:capitalize;
+    display: block;
+    padding: 10px 15px;
+}
+section {
+    padding: 100px 0;
+}
+* {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px;
+    padding: 0px;
+}
+ul, li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+	justify-content: space-between;
+  }
+  
+   a, a:hover, a:focus {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+  }
+
+  /* ---- Home page background image/start ---- */
+  .home_bg {
+    background-image: url(sky.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .container_table {
+    display: table; 
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+ 
+  .container_table_cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+ 
+  .container_table_cell h2 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 54px;
+  }
+ 
+  .social_icons a {
+    color: white;
+    display: inline-block; 
+    width: 30px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 19px;
+    margin: 0 3.5px 0 3.5px;
+  }
+  .social_icons a:hover{
+    background-color: #756b6b;
+  } 
+  .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+ /* ---- Home page background image/end ---- */
+
+ /* ---- About me/start ---- */
+ .col-left, .col-right {
+    float: left;
+    width: 50%;
+    padding: 0 15px; 
+  }
+ 
+  .personal-info h3 {
+     font-size: 15px;
+     letter-spacing: 2px;
+     margin-bottom: 6px;
+     text-transform: capitalize;
+  }
+ 
+  .personal-info p {
+    color: #110000;
+    line-height: 24px;
+    text-align: justify; 
+  }
+ 
+ .skill li {
+    font-size: 15px;
+    line-height: 35px;
+    text-transform: capitalize;
+  }
+ 
+  .button-group div {
+    display: inline-block;
+  }
+ 
+  .button-group .download_cv {
+    margin-right:18px;
+  }
+ 
+  .button-group a {
+     display: block;
+     color: rgb(1, 20, 31);
+     border: 1px solid #333;
+     border-radius:10px;
+     padding: 10px 38px;
+     text-transform: capitalize;
+  }
+ 
+  
+  
+ /* ---- About me/end - --- */
+ 
+   img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .container {
+    width: 85%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+  }
+  h2 {
+    margin-bottom: 75px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: #222;
+    z-index: 100;
+}
+/* ---- Education Data/Start ---- */
+.education_box{
+  background-color: white;
+}
+/* ---- Education Data/Ends ---- */
+
+
+/* ---- Contact/Start ---- */
+.contact-form {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+  }
+ 
+  .contact-form .form-input:first-child,
+  .contact-form .form-input:nth-child(2) {
+    float: left;
+    width: 50%;
+    padding: 0 15px;
+  }
+ 
+  .contact-form .form-input:nth-child(3) {
+    width: 100%;
+    padding: 0 15px;
+  }
+ 
+  .contact-form input.form-style {
+    width: 100%;
+    border:.5px solid black;
+    border-radius: 2px;
+    border-bottom: 1px solid #333;
+    text-transform: capitalize;
+    padding-bottom: 19px;
+    margin-bottom: 12px;
+    outline: none; 
+  }
+ 
+  .contact-form textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #333;
+    outline: none; }
+ 
+  .form-submit {
+    text-align:center;
+    padding: 0 15px;
+  }
+ 
+  .form-submit input {
+    font-size: 16px;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 15px 60px;
+    margin-top: 16px;
+    margin-bottom: 14px;   
+    -webkit-transition: .4s linear;
+    -moz-transition: .4s linear;
+    -ms-transition: .4s linear;
+    -o-transition: .4s linear;
+    transition: .4s linear;
+    cursor: pointer; 
+       }
+ 
+  .form-submit input:hover {
+    background-color: black;
+    color: white;
+  }
+ /* ---- Contact/End ---- */
+
+
+ /* ---- Footer/Start ---- */
+ footer {
+    padding: 80px 0;
+    background-color:black;
+    color: white;
+    text-align: center;
+  }
+ 
+  .footer-content p {
+    line-height: 22px;
+  }
+ 
+  .footer-social-icon a i {
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 15px 15px 0 0;
+  }
+  .cv{
+    color: white;
+    background-color: rgb(128, 128, 235);
+    /*display: inline; */
+    border: 1px solid #333;
+    border-radius:3px;
+    padding: 5px 15px;
+    text-transform: capitalize;
+    
+  }
+  /* ---- Footer/End ---- */
+
+  /* ---- Achievement/Start ---- */
+  
+  .full{
+    background-color:#55566b;
+    height: 100%;
+    width: 100%;
+  }
+  .achievement1st{
+    height: 235px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius:10px;
+  }
+  .img1{
+    height: 235px;
+    width:30%;
+    float: left;
+  }
+  .intro1{
+    
+    height: 235px;
+    width: 70%;
+    float:right;
+  }
+
+  .achievement2nd{
+    
+    height: 235px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius:5px;
+  }
+  .img2{
+    
+    height: 235px;
+    width:30%;
+    float: right;
+  }
+  .intro2{
+   
+    height: 235px;
+    width: 70%;
+    float: right;
+  }
+
+  .achievement3rd{
+    
+    height: 280px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius:5px;
+  }
+  .img3{
+    
+    height: 240px;
+    width:30%;
+    float: left;
+  }
+  .intro3{
+    
+    height: 240px;
+    width: 70%;
+    float: right;
+  }
+
+  .achievement4th{
+    
+    height: 220px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius:5px;
+  }
+  .img4{
+    
+    height: 220px;
+    width:30%;
+    float: right;
+  }
+  .intro4{
+    
+    height: 220px;
+    width: 70%;
+    float: left;
+  }
+
+  .achievement5th{
+    
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius:5px;
+  
+  }
+  .img5{
+    
+    height: 200px;
+    width:30%;
+    float: left;
+  }
+  .intro5{
+    
+    height: 200px;
+    width: 70%;
+    float: right;
+  }
+
+  .achievement6th{
+    
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius:5px;
+  }
+  .img6{
+    
+    height: 260px;
+    width:30%;
+    float: right;
+  }
+  .intro6{
+    
+    height: 260px;
+    width: 70%;
+    float: left;
+  }
+
+  .achievement7th{
+    
+    height: 255px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius:5px;
+  }
+  .img7{
+    
+    height:255px;
+    width:30%;
+    float: left;
+  }
+  .intro7{
+    
+    height:255px;
+    width: 70%;
+    float: right;
+  }
+  h3{
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
